@@ -1,0 +1,4 @@
+<svg class="youtube" width="380" height="240" viewbox="0 0 380 240" xmlns="http://www.w3.org/2000/svg">
+	<rect width="380" height="240" x="0" y="0" rx="40" ry="40" fill="red" />
+	<polygon points="140,75 140,180 250,120" style="fill:white;" />
+</svg>
