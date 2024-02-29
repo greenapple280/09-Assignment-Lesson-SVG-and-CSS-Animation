@@ -1,0 +1,30 @@
+.button {
+    padding: 1em 2em;
+    background-color: blueviolet;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: transform 1s;
+}
+
+.button:hover {
+    transform: translateY(-0.75rem);
+}
+
+.animate__animated {
+    background-color: aqua;
+
+}
+
+.easy-wall-clock:hover {
+    animation: first-animation 3s ease;
+}
+
+@keyframes first-animation {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+    to {
+        transform: scale(1.5) rotate(180deg);
+    }
+}
